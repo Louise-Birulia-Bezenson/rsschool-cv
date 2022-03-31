@@ -50,7 +50,9 @@ I am very sociable, so it was easy for me to manage the team. In addition to man
  -Basic layout skills. 
  -Using the rs app to submit and check tasks.
 ###Link:
-
+ -[Task sounds Link](https://rolling-scopes-school.github.io/louise-birulia-bezenson-JSFEPRESCHOOL/eco-sounds/# "sounds").
+ -[Task mini game Link](https://rolling-scopes-school.github.io/louise-birulia-bezenson-JSFEPRESCHOOL/tic-tac-toe/# "tic-tac-toe").
+ 
 ##Education
 Higher education
 Specialty - engineer economist programmer
