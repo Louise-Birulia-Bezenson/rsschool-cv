@@ -7,6 +7,109 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <header>
+        <h1>Curriculum vitae</h1>
+        <div>
+            <img src="/Birulia-Bezenson.JPG" alt="photo">
+            <div>
+                <h2>Personal information</h2>
+                <ul>
+                    <li>Name: Louisa Birulia-Bezenson</li>
+                    <li>Phone namber: +37529177012</li>
+                    <li>E-mail adres: Leina-ange@mail.ru</li>
+                    <li>Nickname on the rs school discord server: louisa.me</li>
+                </ul>
+            </div>
+            <div>
+                <h2>About me</h2>
+                <p>Now my priority is education. I spend a lot of time on self-study and also study with a tutor and take online courses. At the previous place of work, the ability to study independently helped me to quickly grow up the career ladder.</p>
+                <p>I started my career as a junior analyst, worked hard and asked for additional tasks, as a result, after 2 years I took the position of director of marketing.</p>
+                <p>I am very sociable, so it was easy for me to manage the team. In addition to management, my tasks included: analysis of the market and marketing indicators, distribution of the budget of advertising companies, implementation of automatic sales funnels, a set of financial statements and communication with the franchisee.</p>
+            </div>
+        </div>
+    </header>
+    <nav>
+
+    </nav>
+    <main>
+        <div>
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Figma</li>
+            </ul>
+        </div>
+        <div>
+            <h2>Code examples</h2>
+            <code>
+                module.exports = function check(str, bracketsConfig) {
+                    let checker = true;
+                      while (checker) {
+                          checker = false;
+                          for (let i = 0; i < bracketsConfig.length; i++) {
+                              let indexFromToDelete = str.indexOf(bracketsConfig[i][0] + bracketsConfig[i][1]);
+                              if (indexFromToDelete >= 0) {
+                                  str = str.slice(0, indexFromToDelete) + str.slice(indexFromToDelete + 2);
+                                  checker = true;
+                              }
+                          }
+                      }
+                      if (str.length === 0) {
+                          return true;
+                      }
+                      return false;
+                  }
+            </code>
+        </div>
+        <div>
+            <h2>Experience</h2>
+            <h3>Рroject:</h3>
+            <ul>
+                <li>Photographer's portfolio site.</li>
+                <li>Mini game tic-tac-toe.</li>
+                <li>Audio player.</li>
+                <li>Quote generator.</li>
+            </ul>
+            <h3>Practice:</h3>
+            <ul>
+                <li>Working with Git and GitHub.</li>
+                <li>Using markdown markup.</li>
+                <li>Basic layout skills.</li>
+                <li>Using the rs app to submit and check tasks.</li>
+            </ul>
+            <h3>My projects links:</h3>
+            <a href ="https://rolling-scopes-school.github.io/louise-birulia-bezenson-JSFEPRESCHOOL/eco-sounds/#">Audio player</a>
+            <a href ="https://rolling-scopes-school.github.io/louise-birulia-bezenson-JSFEPRESCHOOL/tic-tac-toe/#">Mini game Link</a>
+        </div>
+        <div>
+            <h2>Education</h2>
+            <p>
+                Higher education.
+                Specialty - engineer economist programmer.
+            </p>
+            <ul>
+                <li>BSUIR 2016-2020
+                    Faculty: Electronic Business Economics
+                    Specialty: Engineer economist programmer</li>
+                <li>MCE 2012-2016
+                    Faculty: Business information processing
+                    Specialty: Technician programmer</li>
+                <li>Gymnasium №8 2003-2012</li>
+            </ul>
+        </div>
+        <div>
+            <h2>English language</h2>
+            <h3>Level A2</h3>
+            <p>I studied at a linguistic gymnasium but studied French.
+                Now I practice with a repeater 3 times a week, we read texts and analyze grammatical constructions. In 4 months of training, my level has risen from absolute zero to level A2.</p>
+            <p>I understand the general meaning of the sentences. I can express thoughts using simple constructions. I understand English and am not going to stop there.</p>
+            </div>
+
+    </main>
+    <footer>
+
+    </footer>
 </body>
 </html>
