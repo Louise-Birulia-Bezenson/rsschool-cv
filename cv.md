@@ -1,9 +1,9 @@
 # Curriculum vitae
 ![My foto](/Birulia-Bezenson.JPG "My foto")
-- Name: Louisa Birulia-Bezenson
-- Phone namber: +37529177012
-- E-mail adres: Leina-ange@mail.ru
-- Nickname on the rs school discord server: louisa.me
+- **Name:** Louisa Birulia-Bezenson
+- **Phone namber:** +37529177012
+- **E-mail adres:** Leina-ange@mail.ru
+- **Nickname on the rs school discord server:** louisa.me
 ## Personal information
 Now my priority is education. I spend a lot of time on self-study and also study with a tutor and take online courses. At the previous place of work, the ability to study independently helped me to quickly grow up the career ladder.
 
@@ -18,7 +18,8 @@ I am very sociable, so it was easy for me to manage the team. In addition to man
 - Figma
 
 ## Code examples
-`module.exports = function check(str, bracketsConfig) {
+``` 
+module.exports = function check(str, bracketsConfig) {
   let checker = true;
     while (checker) {
         checker = false;
@@ -35,7 +36,7 @@ I am very sociable, so it was easy for me to manage the team. In addition to man
     }
     return false;
 }
-`
+```
 ## Experience
 ### Рroject:
  - Photographer's portfolio site.
@@ -52,18 +53,23 @@ I am very sociable, so it was easy for me to manage the team. In addition to man
  - [Mini game Link](https://rolling-scopes-school.github.io/louise-birulia-bezenson-JSFEPRESCHOOL/tic-tac-toe/# "tic-tac-toe").
  
 ## Education
-Higher education
-Specialty - engineer economist programmer
+Higher education.
 
-- BSUIR 2016-2020
+Specialty - engineer economist programmer.
+
+- **BSUIR 2016-2020**
+
 Faculty: Electronic Business Economics
+
 Specialty: Engineer economist programmer
 
-- MCE 2012-2016
+- **MCE 2012-2016**
+
 Faculty: Business information processing
+
 Specialty: Technician programmer
 
-- Gymnasium №8 2003-2012
+- **Gymnasium №8 2003-2012**
 
 ## English language
 
