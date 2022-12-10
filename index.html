@@ -42,23 +42,17 @@
         <div>
             <h2>Code examples</h2>
              <pre>
-    module.exports = function check(str, bracketsConfig) {
-        let checker = true;
-        while (checker) {
-            checker = false;
-            for (let i = 0; i < bracketsConfig.length; i++) {
-                let indexFromToDelete = str.indexOf(bracketsConfig[i][0] + bracketsConfig[i][1]);
-                if (indexFromToDelete >= 0) {
-                    str = str.slice(0, indexFromToDelete) + str.slice(indexFromToDelete + 2);
-                    checker = true;
+                function onButtonPlayPauseClick() {
+                    if (buttonPlayPause.classList.contains("play")) {
+                        buttonPlayPause.classList.add("pause");
+                        buttonPlayPause.classList.remove('play');
+                        playAudio();
+                    } else {
+                        buttonPlayPause.classList.add("play");
+                        buttonPlayPause.classList.remove('pause');
+                        pauseAudio();
+                    }
                 }
-            }
-        }
-        if (str.length === 0) {
-            return true;
-        }
-        return false;
-    }
             </pre>
         </div>
         <div>
