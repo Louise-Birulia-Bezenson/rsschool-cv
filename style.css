@@ -1,3 +1,71 @@
-body{
-    background-color: aqua;
+:root{
+    --font:'Montserrat', sans-serif;
+}
+* {
+    margin: 0;
+    font-family: var(--font);
+    color: var(--tex-color);
+}
+
+:root{
+    --font:'Montserrat', sans-serif;
+    --tex-color:#022636;
+}
+
+.container{
+    background-color: #C5DDE8;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 40px 20px 40px;
+    margin:20px ;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+    border: 2px solid  #a8d3e7;
+}
+
+h1{
+    padding:5px;
+    text-align: center;
+}
+
+h2{
+    padding:5px;
+}
+
+.my-info{
+    display: flex; 
+    align-items:center;
+    gap:20px;
+}
+
+a{
+    text-decoration:none;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer-links{
+    list-style-type: none;
+    display: flex;
+    gap:20px;
+}
+
+.footer-button{
+    width: 135px;
+    height: 50px;
+    background: transparent;
+    background-size: cover;
+    border: 0;
+    cursor: pointer;
+    background-image: url(/rss.svg);
 }
