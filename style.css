@@ -1,71 +1,132 @@
-:root{
-    --font:'Montserrat', sans-serif;
-}
 * {
     margin: 0;
+}
+
+:root {
+    --font: 'Fira Sans', sans-serif;
+    --text-color: #022636;
+    --link-color: #2B97E0;
+    --aside-text-color: #FFFFFF;
+    --aside-bg: #181818;
+}
+
+body {
     font-family: var(--font);
-    color: var(--tex-color);
+    font-weight: 400;
+    line-height: 2;
+    color: var(--text-color);
 }
 
-:root{
-    --font:'Montserrat', sans-serif;
-    --tex-color:#022636;
+h1,
+.h1-extra-calor {
+    font-family: 'Kanit';
+    font-weight: 800;
+    letter-spacing: 5px;
+    padding: 5px;
+    text-align: left;
+    text-transform: uppercase;
 }
 
-.container{
-    background-color: #C5DDE8;
-    border-radius: 50px;
+.h1-extra-calor {
+    padding: 0;
+    color: var(--link-color);
+}
+
+h2,
+h3 {
+    font-weight: 200;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+h3 {
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: none;
+    padding: 15px 0;
+}
+
+a {
+    text-decoration: none;
+    color: var(--link-color);
+}
+
+a:visited {
+    text-decoration: none;
+    color: var(--link-color);
+}
+
+hr {
+    margin: 10px 0;
+}
+
+.main-box {
+    display: flex;
+    flex-direction: row;
+}
+
+aside {
+    min-width: 350px;
+    background: var(--aside-bg);
+    color: var(--aside-text-color);
+}
+
+aside h3 {
+    background: var(--link-color);
+    padding: 5px;
+    text-align: center;
+    margin: 10px 0;
+}
+
+img {
+    height: 450px;
+    width: 350px;
+}
+
+.container {
     display: flex;
     flex-direction: column;
-    padding: 20px 40px 20px 40px;
-    margin:20px ;
+    padding: 10px 20px 10px 20px;
 }
 
-img{
-    height: 200px;
-    width: 200px;
-    border-radius: 100%;
-    border: 2px solid  #a8d3e7;
-}
-
-h1{
-    padding:5px;
-    text-align: center;
-}
-
-h2{
-    padding:5px;
-}
-
-.my-info{
+.contacts {
     display: flex; 
-    align-items:center;
-    gap:20px;
+    flex-direction: column;
 }
 
-a{
-    text-decoration:none;
+.contacts-items {
+    display: flex; 
+    flex-direction: row;
+    gap: 10%;
 }
 
-.footer{
+.my-info {
+    display: flex; 
+    align-items: center;
+    gap: 20px;
+}
+
+.footer {
     display: flex;
     justify-content: space-between;
     flex-direction: row;
     align-items: center;
 }
 
-.footer-links{
-    list-style-type: none;
-    display: flex;
-    gap:20px;
-}
-
-.footer-button{
-    width: 135px;
-    height: 50px;
+.button a {
+    display: block;
+    width: 160px;
+    height: 60px;
+    border: 0;
     background: transparent;
     background-size: cover;
-    border: 0;
+    background-image: url(./rss-logo.svg);
     cursor: pointer;
-    background-image: url(/rss.svg);
+}
+
+.footer-links {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
 }
